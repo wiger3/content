@@ -12,7 +12,7 @@ The **`HTMLMediaElement.playbackRate`** property sets the rate at which the medi
 
 A negative `playbackRate` value indicates that the media should be played backwards, but support for this is not yet widespread. (See [browser compatibility](#browser_compatibility) for details.)
 
-The audio is muted when the fast forward or slow motion is outside a useful range (for example, Gecko mutes the sound outside the range `0.25` to `4.0`).
+The audio is muted when the fast forward or slow motion is outside a useful range (for example, Gecko mutes the sound outside the range `0.125` to `8.0`).
 
 The pitch of the audio is corrected by default. You can disable pitch correction using the {{domxref("HTMLMediaElement.preservesPitch")}} property.
 
